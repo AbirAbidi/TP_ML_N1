@@ -35,7 +35,7 @@ X1 = np.column_stack([
     np.ones(m)
 ])  # Scaling lineaire sur 100 et 150
 
-theta = np.random.uniform(-0.7, 0.7, (3, 1))
+theta = np.random.uniform(-0.7, 0.7, (3, 1)) #update apres seance
 alpha = 0.004
 
 for i in range(2):
@@ -69,7 +69,7 @@ alphas = [
     0.1, 0.15, 0.2, 0.3, 0.4,
     0.5, 0.6, 0.8, 1.0, 1.2,
     1.4, 1.5
-]
+] # update apres seance
 
 iterations = [100, 500, 1000, 5000, 10000]
 
@@ -131,7 +131,7 @@ iterations6 = iterations
 T6 = np.zeros((len(iterations6), len(alphas6)))
 
 # Meme initialisation pour toutes les combinaisons
-theta_initial6 = np.random.uniform(-0.7, 0.7, (3, 1))
+theta_initial6 = np.random.uniform(-0.7, 0.7, (3, 1)) # update apres seance
 
 for i, n in enumerate(iterations6):
     for j, a in enumerate(alphas6):
