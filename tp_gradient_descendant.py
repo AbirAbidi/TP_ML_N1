@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Create folder for figures
-DOSSIER = "figures_abir"
+DOSSIER = "figures"
 os.makedirs(DOSSIER, exist_ok=True)
 
 def sauvegarder(nom):
@@ -171,4 +171,4 @@ plt.title("Q13 : Comparaison selon les iterations")
 plt.legend()
 sauvegarder("Q13_comparaison_iterations.png")
 
-print("\nToutes les figures ont ete sauvegardees dans le dossier figures_abir.")
+print("\nToutes les figures ont ete sauvegardees dans le dossier figures.")
